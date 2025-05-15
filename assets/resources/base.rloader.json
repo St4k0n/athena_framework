@@ -1,0 +1,295 @@
+{
+    "fonts": [
+        {
+            "path": "assets/keep_cheese.ttf",
+            "size": 10,
+            "tag": "tiny_font"
+        },
+        {
+            "path": "assets/keep_cheese.ttf",
+            "size": 14,
+            "tag": "icon_font"
+        },
+        {
+            "path": "assets/keep_cheese.ttf",
+            "size": 20,
+            "tag": "default_font",
+            "pixel_snapH": true
+        },
+        {
+            "path": "assets/keep_cheese.ttf",
+            "size": 40,
+            "tag": "large_font"
+        },
+        {
+            "path": "assets/keep_cheese.ttf",
+            "size": 80,
+            "tag": "mega_large_font"
+        },
+        {
+            "path": "assets/roboto_regular.ttf",
+            "size": 20,
+            "tag": "default_font_rr",
+            "pixel_snapH": true
+        },
+        {
+            "path": "assets/roboto_regular.ttf",
+            "size": 80,
+            "tag": "mega_large_font_rr"
+        },
+        {
+            "path": "assets/roboto_regular.ttf",
+            "size": 35,
+            "tag": "large_font_rr"
+        }
+    ],
+    "textures": [
+        {
+            "tag": "logo",
+            "path": "assets/athena.png",
+            "dynamic": false
+        }
+    ],
+    "themes": [
+        {
+            "tag": "global_theme",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_FrameBg",
+                            "value": [96, 96, 216, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_Button",
+                            "value": [96, 128, 216, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                        {
+                            "name": "mvStyleVar_FrameRounding",
+                            "value": 5,
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvStyleVar_WindowBorderSize",
+                            "value": 2.0,
+                            "category": "mvThemeCat_Core"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "desktop_theme",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_WindowBg",
+                            "value": [0, 0, 0, 128],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_TitleBg",
+                            "value": [96, 96, 200, 128],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                        {
+                            "name": "mvStyleVar_WindowRounding",
+                            "value": 10,
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvStyleVar_WindowPadding",
+                            "value": [15.0, 15.0],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "icon_theme",
+            "components": [
+                {
+                    "target": "mvButton",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Button",
+                            "value": [0, 128, 0, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_ButtonHovered",
+                            "value": [0, 255, 0, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_ButtonActive",
+                            "value": [0, 64, 0, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                        {
+                            "name": "mvStyleVar_ButtonTextAlign",
+                            "value": [0.5, 0.5],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "logs_theme",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_WindowBg",
+                            "value": [11, 11, 11, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_MenuBarBg",
+                            "value": [96, 96, 216, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                        {
+                            "name": "mvStyleVar_WindowRounding",
+                            "value": 3,
+                            "category": "mvThemeCat_Core"
+                        }
+                    ]
+                },
+                {
+                    "target": "mvButton",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Button",
+                            "value": [96, 96, 216, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_ButtonHovered",
+                            "value": [24, 24, 216, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_ButtonActive",
+                            "value": [96, 96, 216, 255],
+                            "category": "mvThemeCat_Core"
+                        },
+                        {
+                            "name": "mvThemeCol_Text",
+                            "value": [255, 255, 255, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                        {
+                            "name": "mvStyleVar_FrameRounding",
+                            "value": 3,
+                            "category": "mvThemeCat_Core"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "node_editor_type_text",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Text",
+                            "value": [144, 238, 144, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "node_editor_log_error_text",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Text",
+                            "value": [248, 138, 144, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "node_editor_log_warning_text",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Text",
+                            "value": [255, 255, 102, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "node_editor_log_info_text",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Text",
+                            "value": [127, 0, 255, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "agents_manager_default_value",
+            "components": [
+                {
+                    "target": "mvAll",
+                    "colors": [
+                        {
+                            "name": "mvThemeCol_Text",
+                            "value": [72, 72, 248, 255],
+                            "category": "mvThemeCat_Core"
+                        }
+                    ],
+                    "styles": [
+                    ]
+                }
+            ]
+        }
+    ]
+}

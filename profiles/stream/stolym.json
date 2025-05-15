@@ -1,0 +1,6 @@
+{
+    "name": "stolym",
+    "path": "profiles/stream/stolym.json",
+    "init_file": "profiles/stream/stolym.ini",
+    "meta": {}
+}

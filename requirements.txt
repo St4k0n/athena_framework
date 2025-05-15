@@ -1,0 +1,17 @@
+colorama==0.4.6
+dearpygui==1.11.1
+matplotlib==3.6.0
+networkx==3.3
+numpy==2.1.2
+Pillow==10.4.0
+pyglet==2.0.18
+scipy==1.14.1
+spdlog==2.0.6
+torch==2.3.1
+xlib==0.21
+
+msgpack~=1.1.0
+tqdm~=4.67.1
+pyobjc-core~=10.3.1
+pyobjc-framework-Cocoa~=10.3.1
+sympy~=1.13.3
